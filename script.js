@@ -2,7 +2,7 @@
 
 function consultarClima(){
   const ciudad = document.getElementById('ciudad').value;
-  const API_KEY = '7988e38cdeafad1d912e3c3ab218ad65';
+  const API_KEY = 'b30a44b65d4106207d06bd4aaa5d9619';
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=${API_KEY}`;
 
   fetch(url)
